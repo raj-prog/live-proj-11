@@ -74,12 +74,142 @@ header main {
 .btn {
   background: linear-gradient(to right, #08aaf5 0%, #0683ef 100%);
   border: 0;
-  padding: 15px 25px;
+  padding: 13px 30px;
   border-radius: 5px;
   color: #fff;
+  font-weight: 700;
 }
 
 .btn:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
+}
+
+/* Sections */
+.section-1, .section-2, .section-3 .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 120px 70px;
+}
+
+.btn-read {
+  padding: 15px 50px;
+}
+
+.section-3 .content {
+  margin-bottom: 20px;
+}
+
+.section-3 .cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-3 .card {
+  padding: 60px;
+  width: 30%;
+}
+
+.cards .icons img {
+  width: 60px;
+}
+
+.card h2 {
+  margin: 20px 0;
+}
+
+.card p {
+  color: #9D9D9D;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.section-4 {
+  background: linear-gradient(to bottom right, #09c4f9, #045de9);
+}
+
+.section-4 h1 {
+  text-align: center;
+  padding: 25px 0;
+  padding-top: 40px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.hosting-plans {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.starter-plan,
+.company-plan,
+.business-plan {
+  background-color: #fff;
+  width: 20%;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.heading p,
+.plan-details,
+.pricing {
+  padding: 20px 20px;
+}
+
+.heading h2 {
+  padding: 20px 20px 10px 20px;
+}
+
+.heading p {
+  color: #9D9D9D;
+  font-size: 14px;
+}
+
+.plan-details {
+  padding: 30px 20px;
+}
+
+.plan-details h5 {
+  padding: 13px 0;
+  font-size: 16px;
+}
+
+.plan-details h5::first-letter {
+  color: #06d6a0;
+  border-radius: 50%;
+  border: 3px solid #06d6a0;
+  padding: 1px 3px;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.heading-color {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.pricing {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.btn-lr {
+  background-color: transparent;
+  color: #47ADF5;
+  border: 1px solid #47ADF5;
+  padding: 13px 30px;
+  border-radius: 5px;
+  font-weight: 700;
 }
