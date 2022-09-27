@@ -149,7 +149,6 @@ header main {
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-bottom: 30px;
-  /* width: 30%; */
 }
 
 .starter-plan,
@@ -308,4 +307,55 @@ header main {
   background-color: transparent;
   cursor: pointer;
   font-weight: 700;
+}
+
+/* Footer */
+footer {
+  height: 50vh;
+  padding: 0 60px;
+}
+
+.footer {
+  padding-top: 120px;
+  display: flex;
+}
+
+.logo-details {
+  width: 400px;
+  padding-top: 40px;
+  padding-left: 60px;
+}
+
+.logo-details p {
+  padding-top: 15px;
+  color: #9d9d9d;
+  font-size: 14px;
+}
+
+.link-boxes {
+  display: flex;
+}
+
+.link-boxes .box {
+  padding: 20px 60px;
+}
+
+.link-boxes .link-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.link-boxes .box li a {
+  text-decoration: none;
+  color: #9d9d9d;
+  font-size: 14px;
+}
+
+.link-boxes .box .media-icons img {
+  width: 30px;
+}
+
+.link-boxes .box li {
+  list-style-type: none;
+  padding: 12px;
 }
